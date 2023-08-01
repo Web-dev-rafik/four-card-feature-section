@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](https://github.com/Web-dev-rafik/four-card-feature-section/blob/main/screenshot.png)
 
 ### Links
 
-- Solution URL: [Code on Github]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [Code on Github](https://github.com/Web-dev-rafik/four-card-feature-section)
+- Live Site URL: [Live site URL](https://web-dev-rafik.github.io/four-card-feature-section/)
 
 ## My process
 
