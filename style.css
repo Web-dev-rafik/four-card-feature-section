@@ -56,6 +56,18 @@ body {
   --fs-h3: 1.25rem;
 }
 
+/* Typography Media queries */
+
+/* Desktop: 1120px */
+
+@media (min-width: 70em) {
+  :root {
+    --fs: 1rem; /* 16 px */
+    --fs-h1: 2rem;
+    --fs-h3: 1.3rem;
+  }
+}
+
 p {
   font-size: var(--fs);
   font-weight: 400;
@@ -79,6 +91,12 @@ h3 {
 
 .semi-bold {
   font-weight: 600;
+}
+
+/* Body background */
+
+body {
+  background-color: var(--very-light-gray);
 }
 
 /* main */
@@ -126,7 +144,7 @@ h3 {
   box-shadow: var(--grayish-blue) 0px 5px 15px;
   border-radius: 0.25rem;
   border-top: 3px solid;
-  padding: 1rem;
+  padding: 1.2rem;
 
   display: flex;
   flex-direction: column;
@@ -149,6 +167,10 @@ h3 {
 
 /* ------ */
 
+.cards-item-desc {
+  margin-top: 0.25rem;
+}
+
 .cards-item-icon {
   margin-top: 2rem;
   align-self: end;
@@ -165,7 +187,7 @@ h3 {
   }
 
   .cards-item {
-    max-width: 310px;
+    max-width: 400px;
   }
 
   .cards-item-1 {
